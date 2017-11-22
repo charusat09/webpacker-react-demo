@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
 const Hello = props => (
-  <div className="my-react">Hello {props.name}!</div>
+  <div id="myReact" className="my-react">Hello {props.name}!</div>
 )
 
 Hello.defaultProps = {
@@ -19,8 +19,11 @@ Hello.propTypes = {
 }
 
 document.addEventListener('turbolinks:load', () => {
-  ReactDOM.render(
-    <Hello/>,
-    document.body.appendChild(document.createElement('div')),
-  )
+  var element = document.getElementById('myReact')
+  if (element == null) {
+    ReactDOM.render(
+      <Hello/>,
+      document.body.appendChild(document.createElement('div')),
+    )
+  }
 })
