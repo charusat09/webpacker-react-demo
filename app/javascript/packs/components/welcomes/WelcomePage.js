@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react';
+import React, { Component } from "react";
 import Navigation from './Navigation';
 import Header from './Header';
 import About from './About';
