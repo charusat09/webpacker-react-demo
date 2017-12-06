@@ -1,24 +1,3 @@
-# README
+### Webpacker React Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I have created this demo to include HTML theme to React using webpacker gem. I was getting to many issue for including theme js to my demo. I have resolved some but still getting some issues. I have created [issue](https://github.com/rails/webpacker/issues/1060) under webpacker gem.
